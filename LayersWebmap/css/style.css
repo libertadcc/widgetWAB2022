@@ -1,0 +1,15 @@
+.jimu-widget-layerList table {
+    width: 100%;
+}
+  
+.jimu-widget-layerList td {
+    padding: 5px;
+}
+  
+.jimu-widget-layerList p {
+    margin: 0px;
+}
+  
+.jimu-widget-layerList tbody:nth-child(odd) {
+    background-color: rgb(214, 214, 214);
+}
