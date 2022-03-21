@@ -1,0 +1,39 @@
+.filtro-felicidad {
+    padding: 0px;
+    margin: 0px;
+}
+.filtro-felicidad h3 {
+    font-size: 1.2em;
+}
+.filtro-felicidad h3, p {
+    margin-top: 0;
+}
+.filtro-felicidad .boton {
+    background-color: rgb(84, 67, 185);
+    padding: 5px 7px;
+    border: none;
+    /* border-radius: 5px; */
+    color: white;
+    cursor: pointer;
+}
+.filtro-felicidad .containerFilter { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+.filtro-felicidad input {
+    padding: 5px 7px;
+}
+
+.filtro-felicidad .containerImg{
+    height: 80px;
+    width: 100%;
+    background-color: #596574;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtro-felicidad #filterImg {
+    width: 60px;
+}

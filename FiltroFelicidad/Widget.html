@@ -1,0 +1,27 @@
+<div>
+  <div class="containerImg">
+    <img id="filterImg" src="widgets/FiltroFelicidad/images/filtro.png" alt="">
+
+  </div>
+  <div class="containerFilter">
+    <div>
+
+      <div>
+        <h3>Filtro por país</h3>
+        <button type="button" class="btn btn-danger boton"
+          data-dojo-attach-event="onclick:filtrarPais">Filtrar</button>
+        <input type="text" data-dojo-attach-point="inputFiltrar" placeholder="Introduce un país">
+        <br>
+      </div>
+
+      <div>
+        <h3>Filtro por ranking de Felicidad</h3>
+        <button type="button" class="btn btn-danger boton"
+          data-dojo-attach-event="onclick:filtrarRanking">Filtrar</button>
+        <input type="text" data-dojo-attach-point="inputRanking" placeholder="Introduce un puesto en el ranking">
+      </div>
+    </div>
+    <button type="button" class="btn btn-danger boton" data-dojo-attach-event="onclick:restore">Restaurar</button>
+  </div>
+
+</div>
